@@ -39,7 +39,7 @@ function ChatterRow({ name, lastActive, chats, avgResponse, performance, avatar,
       <div className={`absolute right-2 top-2 w-2 h-2 rounded-full ${getStatusColor()}`} />
       <div 
         className="relative cursor-pointer"
-        onClick={onClick}
+        // onClick={onClick}
       >
         <img src={avatar} alt={name} className="w-10 h-10 rounded-full" />
         <div className={`absolute bottom-0 right-0 w-3 h-3 bg-green-400 rounded-full border-2 ${isDark ? 'border-gray-800' : 'border-white'}`}></div>
@@ -48,14 +48,14 @@ function ChatterRow({ name, lastActive, chats, avgResponse, performance, avatar,
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div 
             className="cursor-pointer"
-            onClick={onClick}
+            // onClick={onClick}
           >
             <h3 className={`font-medium ${isDark ? 'text-white' : 'text-gray-900'}`}>{name}</h3>
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>Last active {lastActive}</p>
           </div>
           <div 
             className="flex flex-wrap sm:flex-nowrap items-center gap-4 sm:gap-8 cursor-pointer"
-            onClick={onClick}
+            // onClick={onClick}
           >
             <div className="text-center">
               <div className={`font-medium ${isDark ? 'text-white' : 'text-gray-900'}`}>{chats} chats</div>
