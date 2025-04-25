@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const FANCENTRO_API_URL = 'https://fancentro.com/external';
-const HASH_API_URL = 'http://localhost:3000';
+const HASH_API_URL = 'https://backend-sandy-three-95.vercel.app';
 const EMAIL = 'vtarabcakova@gmail.com';
 const PASSWORD = '92hf83jsba&1';
 const SECRET = '75f2bd1131870721df8eb57d322e8adb';

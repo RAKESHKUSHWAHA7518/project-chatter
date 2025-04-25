@@ -290,9 +290,9 @@ function ChatView({ messages, selectedUser, isDark, loading, error, onSendMessag
             <p className={`font-medium ${isDark ? 'text-white' : 'text-gray-900'}`}>
               {selectedUser.name}
             </p>
-            <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
+            {/* <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
               Active now
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
@@ -326,7 +326,7 @@ function ChatView({ messages, selectedUser, isDark, loading, error, onSendMessag
         )}
       </div>
 
-      <div className={`p-4 border-t ${isDark ? 'border-gray-700' : 'border-gray-200'}`}>
+      {/* <div className={`p-4 border-t ${isDark ? 'border-gray-700' : 'border-gray-200'}`}>
         <form onSubmit={handleSendMessage} className="flex gap-2">
           <input
             type="text"
@@ -357,7 +357,7 @@ function ChatView({ messages, selectedUser, isDark, loading, error, onSendMessag
           >
             📎
           </button>
-          <button
+           <button
             type="submit"
             className={`px-4 py-2 rounded-lg ${
               isDark
@@ -366,9 +366,9 @@ function ChatView({ messages, selectedUser, isDark, loading, error, onSendMessag
             } text-white transition-colors`}
           >
             Send
-          </button>
+          </button> 
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }
