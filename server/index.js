@@ -52,6 +52,10 @@ app.post('/generate-hash', (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the Homepage!');
+});
+
 app.listen(port, () => {
   console.log(`Hash generation server running at http://localhost:${port}`);
 });
